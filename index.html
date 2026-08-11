@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moon Courier Crisis — лунная доставка</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header id="ui-topbar"></header>
+
+    <main class="layout">
+      <section class="map-wrap">
+        <canvas id="map"></canvas>
+        <div id="map-tip" class="map-tip"></div>
+        <div class="map-legend">
+          <div><span class="lg" style="background:#7ee787"></span>низкий риск</div>
+          <div><span class="lg" style="background:#e9b35f"></span>средний риск</div>
+          <div><span class="lg" style="background:#ff7b72"></span>высокий риск</div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div id="ui-orders" class="panel"></div>
+        <div id="ui-rovers" class="panel"></div>
+      </aside>
+    </main>
+
+    <section id="ui-log" class="log"></section>
+  </div>
+
+  <div id="modal-overlay"></div>
+  <div id="toast" class="toast"></div>
+  <input type="file" id="import-file" accept=".json,application/json" style="display:none">
+
+  <script src="js/config.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

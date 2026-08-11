@@ -1,0 +1,10 @@
+# Runtime-данные сервера (создаются при запуске node server.js)
+data/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# ОС / редакторы
+Thumbs.db
+.DS_Store

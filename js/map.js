@@ -216,6 +216,7 @@ var MoonMap = (function () {
   }
 
   function render(game, opts) {
+    if (!game) return;
     opts = opts || {};
     drawSurface();
     drawZones();

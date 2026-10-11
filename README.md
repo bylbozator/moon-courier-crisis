@@ -1,4 +1,19 @@
+<div align="center">
+
 # Moon Courier Crisis
+
+Игровой симулятор лунной доставки. Вы — диспетчер базы «Тихо-1» на Луне.
+
+[![JS](https://img.shields.io/badge/JS-ES2020-f7df1e?logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![Canvas](https://img.shields.io/badge/HTML5%20Canvas-ok-1a1a1a?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+[![Node](https://img.shields.io/badge/Node-20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Tests](https://img.shields.io/badge/tests-95%20checks-brightgreen)](https://nodejs.org/)
+
+**66 юнит-тестов · 29 тестов REST API · сервер-авторитативная симуляция · чистый JS без зависимостей**
+
+</div>
+
+---
 
 Игровой симулятор лунной доставки. Вы — диспетчер базы «Тихо-1» на Луне.
 На карте разбросаны аванпосты, на базу приходят заказы на доставку пайков,
